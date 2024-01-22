@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "20bdcab0-1a97-4b44-ba34-e2770260b445",
+		"name": "Bio techne bloomreach API for RND",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15821232"
+	},
+	"item": [
+		{
+			"name": "RND product",
+			"item": [
+				{
+					"name": "http://staging-core.dxpapi.com/api/v1/core/?domain_key=biotechne&auth_key=gmtnjthiky37113i&account_id=6368&request_id=1165660025744&_br_uid_2=uid%3D2508931287470%3Av%3D12.0%3Ats%3D1701772437213%3Ahc%3D87&ref_url=https%3A%2F%2Foneweb.ddev.site%2Fsearch&url",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://staging-core.dxpapi.com/api/v1/core/?domain_key=biotechne&auth_key=gmtnjthiky37113i&account_id=6368&request_id=1165660025744&_br_uid_2=uid%3D2508931287470%3Av%3D12.0%3Ats%3D1701772437213%3Ahc%3D87&ref_url=https%3A%2F%2Foneweb.ddev.site%2Fsearch&url=https%3A%2F%2Foneweb.ddev.site%2Fsearch%3F&request_type=search&search_type=keyword&q=Lymphotoxin alpha2&start=0&rows=10&fl=pid,applications,applications_abr,b_product_action,brand,cas_number,carrier_free_id,category_attr,category_id,category_seo_plural,chemical_name,clonality,clone,common_name,conjugate_form,count_publications,count_reviews,default_product_code,elisa_range_sets,description,formula,has_sample_size,host,host_clonality,image_data,in_chi_key,is_purity_by_hplc,isCF,isotype,long_description,low_endotoxin,product_created_date,title,purity,replacement_product,ruo_gmp_version,single_letter_sequence,size_data,source_info,species,stars,sub_category,sub_category_id,synonyms_html,uniprot_data,url_product,web_template_id&fq=is_active:\"True\"&fq=default_product_code:\"True\"&sort=score+desc",
+							"protocol": "http",
+							"host": [
+								"staging-core",
+								"dxpapi",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"core",
+								""
+							],
+							"query": [
+								{
+									"key": "domain_key",
+									"value": "biotechne"
+								},
+								{
+									"key": "auth_key",
+									"value": "gmtnjthiky37113i"
+								},
+								{
+									"key": "account_id",
+									"value": "6368"
+								},
+								{
+									"key": "request_id",
+									"value": "1165660025744"
+								},
+								{
+									"key": "_br_uid_2",
+									"value": "uid%3D2508931287470%3Av%3D12.0%3Ats%3D1701772437213%3Ahc%3D87"
+								},
+								{
+									"key": "ref_url",
+									"value": "https%3A%2F%2Foneweb.ddev.site%2Fsearch"
+								},
+								{
+									"key": "url",
+									"value": "https%3A%2F%2Foneweb.ddev.site%2Fsearch%3F"
+								},
+								{
+									"key": "request_type",
+									"value": "search"
+								},
+								{
+									"key": "search_type",
+									"value": "keyword"
+								},
+								{
+									"key": "q",
+									"value": "Lymphotoxin alpha2"
+								},
+								{
+									"key": "start",
+									"value": "0"
+								},
+								{
+									"key": "rows",
+									"value": "10"
+								},
+								{
+									"key": "fl",
+									"value": "pid,applications,applications_abr,b_product_action,brand,cas_number,carrier_free_id,category_attr,category_id,category_seo_plural,chemical_name,clonality,clone,common_name,conjugate_form,count_publications,count_reviews,default_product_code,elisa_range_sets,description,formula,has_sample_size,host,host_clonality,image_data,in_chi_key,is_purity_by_hplc,isCF,isotype,long_description,low_endotoxin,product_created_date,title,purity,replacement_product,ruo_gmp_version,single_letter_sequence,size_data,source_info,species,stars,sub_category,sub_category_id,synonyms_html,uniprot_data,url_product,web_template_id"
+								},
+								{
+									"key": "fq",
+									"value": "is_active:\"True\""
+								},
+								{
+									"key": "fq",
+									"value": "default_product_code:\"True\""
+								},
+								{
+									"key": "sort",
+									"value": "score+desc"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

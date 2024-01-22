@@ -1,0 +1,37 @@
+﻿<!-- Views/Home/DisplayImages.cshtml -->
+@{
+    ViewData["Title"] = "Processed Images";
+}
+
+<h3>Processed Images:</h3>
+
+<h5>Original Image:</h5>
+<img src="@ViewBag.OriginalImageUrl" alt="Original Image">
+<button onclick="downloadImage('@ViewBag.OriginalImageUrl')">Download</button>
+
+<h5>Processed Image with Brightness and Contrast:</h5>
+<img src="@ViewBag.ProcessedBrightnessContrastImageUrl" alt="Processed Image with Brightness and Contrast">
+<button onclick="downloadImage('@ViewBag.ProcessedBrightnessContrastImageUrl')">Download</button>
+
+
+<h5>Processed Image with Filter:</h5>
+<img src="@ViewBag.ProcessedFilterImageUrl" alt="Processed Image with Filter">
+<button onclick="downloadImage('@ViewBag.ProcessedFilterImageUrl')">Download</button>
+
+
+<h5>Resized Image:</h5>
+<img src="@ViewBag.ResizedImageUrl" alt="Resized Image">
+<button onclick="downloadImage('@ViewBag.ResizedImageUrl')">Download</button>
+
+
+
+<script>
+    function downloadImage(imageUrl) {
+        var link = document.createElement('a');
+        link.href = imageUrl;
+        link.download = 'downloaded_image.jpg';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+</script>
